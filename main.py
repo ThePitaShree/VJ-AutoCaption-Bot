@@ -19,11 +19,11 @@ start_message = """
 
 about_message = """
 <b>• Name : <a href=https://t.me/Interworld_backup>Ghost AutoCaption</a></b>
-<b>• Developer : <a href=https://t.me/EL_Pita_Shree>[𝔾𝖍𝖔𝖘𝖙]</a></b>
+<b>• Developer : <a href=https://t.me/EL_Pita_Shree>[Ghost]</a></b>
 <b>• Language : Python3</b>
 <b>• Library : Pyrogram v{version}</b>
 <b>• Updates : <a href=https://t.me/Interworld_backup>Click Here</a></b>
-<b>• Source Code : <a href=https://github.com/VJBots/ThePitaShree>Click Here</a></b>"""
+<b>• Source Code : <a href=https://github.com/ThePitaShree>Click Here</a></b>"""
 
 @AutoCaptionBotV1.on_message(pyrogram.filters.private & pyrogram.filters.command(["start"]))
 def start_command(bot, update):
